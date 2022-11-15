@@ -7,4 +7,8 @@ app.get("/products",(req,res) => {
     res.send("Los productos")
 })
 
+app.get("/categories",(req,res)=>{
+    res.send("toda las categorias")
+})
+
 app.listen(PORT,()=>console.log(`Server started on port ${PORT}`))
